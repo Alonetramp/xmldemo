@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <chartType>bar</chartType>
+    <dataExpress>item_name,#{month_plan},#{curr_day},#{curr_month},#{completion_rate},#{gross_rate},#{single_car},#{month_ratio}</dataExpress>
+    <title isShow="N" dataFormat="string">项目分析</title>
+    <title isShow="Y" dataFormat="double">本月计划</title>
+    <title isShow="Y" dataFormat="double">今日完成</title>
+    <title isShow="Y" dataFormat="double">累计完成</title>
+    <title isShow="Y" dataFormat="percent">完成率(%)</title>
+    <title isShow="Y" dataFormat="percent">毛利率(%)</title>
+    <title isShow="Y" dataFormat="double">单车</title>
+    <title isShow="Y" dataFormat="percent">环比(%)</title>
+</configuration>
